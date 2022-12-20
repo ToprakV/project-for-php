@@ -1,0 +1,18 @@
+<?php
+//VEDAT TOPRAK
+//        *************
+//Bankaya 50 tl para yatırıldı ben bu parayı 10 ay boyunca 
+//hiç para çekmezsem bu paranın ne kadar olacağını 
+//hesaplayan php algoritması,kodu ve çıktısını gösteriniz. 
+
+$para=50;
+for ($i = 1; $i <10;$i++)
+{
+    $para = $para * 0.08+$para;
+
+    echo "tutar=" . $para."<br>";
+    
+}
+
+
+?>
