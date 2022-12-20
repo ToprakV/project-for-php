@@ -1,0 +1,25 @@
+<?php
+//VEDAT TOPRAK
+//               *************
+//Vize ve final notları girildiğinde ortalamayı hesaplayan,
+ //ortalama 40’nin üzerinde ise ‘GEÇTİ’ değilse ‘KALDI’ yazan programın 
+ //php algoritmasını, kodlarını ve çıktısını gösteriniz. (Vize%40,Final%60). 
+
+
+ $vize=45;
+
+$final=60;
+ 
+$ort=($vize*40/100)+($final*60/100);
+ 
+echo "Ortalama:".$ort."<br>";
+ 
+if($ort>=40)
+ 
+echo "Durum:Geçti";
+ 
+else
+ 
+echo "Durum:Kaldı"
+ 
+?>
