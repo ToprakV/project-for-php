@@ -1,0 +1,14 @@
+<?php
+// VEDAT TOPRAK
+//           *************
+//0 ile 100 arasında bulunan sayılardan  
+//tek olan sayıları(1,3,5,7 vs) bulan
+// php algoritmasını,kodlarını ve de çıktısını gösteriniz.
+ 
+
+for($i=0;$i<=100;$i++)
+
+       if($i%2==1)
+             echo $i."<br>";
+ 
+?>
