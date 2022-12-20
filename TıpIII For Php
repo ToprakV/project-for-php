@@ -1,0 +1,17 @@
+<?php
+//VEDAT TOPRAK
+//          *************
+//Alınan ürünün fiyatı  95tl ve ürün üzerinde %20 lik bir kdv oranı bulunmakta.
+//Kargo şirketi kdv dahil ürünlerde 110 tl ve üstünü bedava hizmet sunmaktadır.
+//Buna göre buna karşılık gelen  php algoritması,kodu ve çıktısını gösteriniz.  
+
+$para=95;
+$kdv=$para*20/100;
+$toplam=$para+$kdv;
+echo "KDV'li Fiyat:" . $toplam . "<br>";
+if($toplam>=110)
+
+    echo "Kargonuz Beleş Olmuştur Allahın Fırsatçısı";
+
+ 
+?>
